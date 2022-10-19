@@ -1,0 +1,136 @@
+.first-col p{
+    margin: 0px 0px;
+    font-weight: bold;
+    color: gray;
+    padding: 0px 10px;
+    font-size: 14pt;
+}
+.first-col h1{
+    font-size: 28pt;
+}
+.student{
+    background-color: #fbfbfb;
+    margin: 40px 80px;
+    padding: 20px 40px ;
+    height: 40vh;
+    border-radius: 10px;
+    display: flex;
+}
+.first-col{
+    width: 40%;
+}
+.second-col{
+    /* border: 1px solid black; */
+    width: 60%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* background-color: #2196F3; */
+    padding: 10px;
+  }
+  /* .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  } */
+  .grid-item1{
+    display: flex;
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+    padding: 20px 20px;
+  }
+  .grid-item2{
+    padding: 20px 20px;
+    display: flex;
+    border-bottom: 2px solid gray;
+}
+.grid-item3{
+    padding: 20px 20px;
+    display: flex;
+    border-right: 2px solid gray;
+}
+.grid-item4{
+    padding: 20px 20px;
+    display: flex;
+    /* border-bottom: 2px solid black; */
+}
+
+/* .bb{
+    border-bottom: 2px solid gray;
+} */
+.i1 p{
+    padding-left: 10px;
+    margin: 0px 0px;
+    font-size: 10pt;
+    color: gray;
+    font-weight: 500;
+}
+.i1 h4{
+    padding-left: 10px;
+    margin: 0px 0px;
+    /* color: gray; */
+    font-size: 16pt;
+}
+.l1 img{
+    height: 35px ;
+    width: 30px;
+    margin-top: 5px;
+}
+
+
+
+@media (max-width:540px){
+    .student{
+        /* border: 1px solid black; */
+        margin: 0px 40px;
+        padding: 10px 10px;
+        width: 90%;
+        height: 90vh;
+        flex-direction: column;
+    }
+    .first-col p{
+        font-size: 16pt;
+    }
+    .first-col h1{
+        width: 260px;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto ;
+        padding: 10px;
+    }
+    .grid-item1{
+        border: none;
+        width: 300px;
+        border-bottom: 2px solid gray;
+    }
+      .grid-item2{
+        border: none;
+        width: 300px;
+        border-bottom: 2px solid gray;
+    }
+    .grid-item3{
+        border: none;
+        width: 300px;
+        border-bottom: 2px solid gray;
+    }
+    .grid-item4{
+        border: none;
+        width: 300px;
+        border-bottom: 2px solid gray;
+    }
+    .l1 img{
+        width: 30px;
+    }
+    .i1 p{
+        font-size: 12pt;
+    }
+    .i1 h4{
+        font-size: 18pt;
+        padding-bottom: 10px;
+    }
+
+}

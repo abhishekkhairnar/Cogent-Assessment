@@ -1,0 +1,113 @@
+.top-courses{
+
+    padding: 0px 80px ;
+    height: 20vh;
+}
+.top-courses p{
+    font-weight: 500;
+    color: gray;
+}
+.flutter
+{
+    display: flex;
+    height: 70vh;
+    background-color: #fbfbfb;
+    width: 86vw;
+    margin: 10px 80px;
+    border-radius: 10px;
+}
+@media (max-width:540px){
+    .top-courses{
+        padding-top: 50px;
+    }
+    .flutter{
+        flex-direction: column;
+        margin: 10px 50px;
+    }
+}
+.card-img h3{
+    padding-left: 50px;
+    padding-right: 40px;
+}
+.card-img h4{
+    color: gray;
+    padding-left: 50px;
+}
+.card-img{
+    /* padding: 10px 20px; */
+    /* border: 1px solid red; */
+    width: 250px;
+    height: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    background-color: white;
+}
+.card-img img{
+    height: 40%;
+    width: 100%;
+}
+.card{
+    display: flex;justify-content: center;align-items: center;
+    width: 40%;
+    /* border: 1px solid black; */
+}
+.card-info{
+    padding-top: 30px;
+    /* border: 1px solid black; */
+    width: 60%;
+}
+
+.buttons p img{
+    height: 15px;
+    width: 15px;
+}
+.buttons .star-button{
+    margin-left: 30px;
+    border-radius: 15px;
+    font-weight: 500;
+    padding: 3px 10px;
+    background-color: #1c2541;
+    color: white;
+}
+.pop{
+    margin-left:40px;
+    background-color: #3dadf2;
+    padding: 0px 20px;
+    border-radius: 15px;
+    color: white;
+}
+.buttons{
+    display: flex;
+}
+
+.view-syllabus{
+    margin-left: 20px;
+    border:2px solid #005696;
+    background-color: white;
+    border-radius: 8px;
+    color: #005696;
+    padding: 15px 20px;
+}
+.cinfo h4{
+    color: #005696;
+}
+.cinfo p{
+    color: gray;
+}
+.enroll{
+    background-color: #fcc806;
+    font-size: 14pt;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 8px;
+}
+.buttons-2 img{
+    margin-left: 250px;
+    height: 250px;
+    margin-bottom: 100px;
+
+}
+.buttons-2{
+    display: flex;
+    justify-content: center;align-items: center;
+}
