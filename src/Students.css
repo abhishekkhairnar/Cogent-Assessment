@@ -79,10 +79,26 @@
     width: 30px;
     margin-top: 5px;
 }
+.img2{
+    display: block;
+    background: none;
+}
 
 
 
 @media (max-width:540px){
+    .banner{
+        height: 210vh;
+    }
+    .banner img{
+        display: none;
+    }
+    .img2{
+        height: 200vh;
+        background-image: url('./accessories/group.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
     .student{
         /* border: 1px solid black; */
         margin: 0px 40px;
@@ -133,4 +149,10 @@
         padding-bottom: 10px;
     }
 
+}
+.banner img{
+    margin: 100px 0px;
+    width: 98.6vw;
+}.banner{
+    height: 170vh;
 }

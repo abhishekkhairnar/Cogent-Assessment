@@ -1,7 +1,19 @@
+.flutter-2{
+    padding-left: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: row-reverse;
+    height: 70vh;
+    background-color:#fcc806;
+    width: 86vw;
+    margin: 100px 80px;
+    border-radius: 10px;
+}
 .top-courses{
-
+    margin: 10px 10px;
     padding: 0px 80px ;
     height: 20vh;
+    clear: left;
 }
 .top-courses p{
     font-weight: 500;
@@ -9,21 +21,14 @@
 }
 .flutter
 {
+    padding-left: 30px;
     display: flex;
     height: 70vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #fbfbfb;
     width: 86vw;
-    margin: 10px 80px;
+    margin: 50px 80px;
     border-radius: 10px;
-}
-@media (max-width:540px){
-    .top-courses{
-        padding-top: 50px;
-    }
-    .flutter{
-        flex-direction: column;
-        margin: 10px 50px;
-    }
 }
 .card-img h3{
     padding-left: 50px;
@@ -109,5 +114,93 @@
 }
 .buttons-2{
     display: flex;
+    transform: translateX(60px);
+    transform: translateY(-80px);
     justify-content: center;align-items: center;
 }
+    @media (max-width:540px){
+        .top-courses{
+            padding-top: 50px;
+        }
+        .flutter{
+            padding-left: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 10px 50px;
+            height: 120vh;
+        }
+        .card-img{
+            width: 261px;
+            height: 347px;
+            /* margin-top: 342px; */
+        }
+        .card{
+            /* padding-top: 40px; */
+            width: 400px;
+            height: 400px;
+        }
+        .card-info{
+            clear: both;
+            /* margin-top: 200px; */
+        }
+        .buttons-2{
+            margin-top: 80px    ;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        .buttons-2 img{
+            float: right;
+            display: none;
+        }
+        .buttons-21{
+            margin-top: 80px    ;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        .buttons-21 img{
+            float: right;
+            display: none;
+        }
+        .view-syllabus,.enroll{
+            padding: 20px 25px;
+            margin: 20px 30px;
+        }
+        .flutter-2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 30px 50px;
+            height: 120vh;
+            padding-left: 0px;
+            
+        }
+
+
+    }
+.enroll-2{
+    background: linear-gradient(#4aafee,#035b9b);
+    font-size: 14pt;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 8px;
+}
+.buttons-21 img{
+    margin-left: 250px;
+    height: 250px;
+    margin-bottom: 100px;
+
+}
+.buttons-21{
+    display: flex;
+    transform: translateX(60px);
+    transform: translateY(-80px);
+    justify-content: center;align-items: center;
+}
+    .button-21 img{
+        display: none;
+    }

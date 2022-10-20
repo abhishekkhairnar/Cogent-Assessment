@@ -3,15 +3,11 @@ import './Top.css'
 import flutter from './accessories/flutter.png'
 import star from './accessories/star.png'
 import char from './accessories/char.png'
-
-function Top() {
+function Top2() {
   return (
     <>
-        <div className="top-courses">
-        <h1>Top Courses</h1>
-        <p>Start your learning journey</p>
-        </div>
-        <div className="flutter">
+        
+        <div className="flutter-2">
             <div className="card">
                 <div className="card-img">
                     <img src={flutter} alt="" />
@@ -30,8 +26,8 @@ function Top() {
                     <p>More than 150 students joined and get benifitted</p>
                     <h4>Daily 1 hour training with the efficient trianner</h4>
                     <h2>Amount : $ 150</h2>
-                    <div className="buttons-2">
-                        <button className="enroll">Enroll Now</button>
+                    <div className="buttons-21">
+                        <button className="enroll-2">Enroll Now</button>
                         <button className="view-syllabus">View Syllabus</button>
                         <img src={char} alt="" />
                     </div>
@@ -42,4 +38,4 @@ function Top() {
   )
 }
 
-export default Top
+export default Top2
