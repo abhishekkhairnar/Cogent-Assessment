@@ -6,6 +6,7 @@ import Top from './Top';
 import Top2 from './Top2';
 import Banner from './Banner';
 import Update from './Update';
+import Sale from './Sale';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Top2/>
       <Banner/>
       <Update/>
+      <Sale/>
     </>
   );
 }

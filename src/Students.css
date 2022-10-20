@@ -87,9 +87,7 @@
 
 
 @media (max-width:540px){
-    .banner{
-        height: 210vh;
-    }
+    
     .banner img{
         display: none;
     }
@@ -154,5 +152,5 @@
     margin: 100px 0px;
     width: 98.6vw;
 }.banner{
-    height: 170vh;
+    height: 90vh;
 }
