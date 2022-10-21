@@ -18,10 +18,10 @@
 }
 .first p{
     color: gray;
-}
+}*/
 .first h1{
     font-size: 24pt;
-} */
+} 
 .cover-page{
     padding: 0px 20px;
     width: 93%;
@@ -45,6 +45,7 @@
 
 
 .btn{
+    cursor: pointer;
     background-color: #fcc806;
     font-size: 14pt;
     border: none;

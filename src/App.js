@@ -7,7 +7,7 @@ import Top2 from './Top2';
 import Banner from './Banner';
 import Update from './Update';
 import Sale from './Sale';
-
+import Footer from './Footer';
 function App() {
   return (
     <>
@@ -19,6 +19,7 @@ function App() {
       <Banner/>
       <Update/>
       <Sale/>
+      <Footer/>
     </>
   );
 }
